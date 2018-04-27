@@ -1,0 +1,10 @@
+Package: AlphaG
+Title: Generates a random letter
+Version: 0.0.0.9000
+Authors@R: person("Nick", "Marotta", email = "nickmaro@prodigy.com", role = c("aut", "cre"))
+Description: Generates a random letter
+Depends: R (>= 3.3.2)
+License: Free to use by all
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

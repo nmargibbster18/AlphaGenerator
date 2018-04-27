@@ -1,0 +1,38 @@
+---
+title: "AlphaGenerator"
+author: "Nick Marotta"
+date: "4/27/2018"
+output: html_document
+---
+## This can be installed using the 
+install_github('AlphaG','nmargibbster18')
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Installing the necessary packages 
+
+```{r}
+install.packages("devtools")
+library("devtools")
+devtools::install_github("klutometis/roxygen")
+install.packages("roxygen2")
+library(roxygen2)
+```
+## This is to set the working directory and create the directory for the R scripts
+```{r}
+setwd("/Users/mmakarious/Documents/GitHub/AlphaGenerator")
+create("AlphaG")
+```
+## Generating the document
+```{r}
+setwd("./AlphaG")
+document()
+```
+
+## Installing the package 
+```{r}
+setwd("/Users/mmakarious/Documents/GitHub/AlphaGenerator")
+install("AlphaG")
+```
