@@ -1,0 +1,10 @@
+Package: AlphaG
+Title: Generation of Random Letter
+Version: 1.01
+Authors@R: Nick Marotta <nickmaro@prodigy.net>
+Description: This is a package that contains the function that will generate a random Letter based on runif.
+Depends: R (>= 3.4.3)
+License: Free Use
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
